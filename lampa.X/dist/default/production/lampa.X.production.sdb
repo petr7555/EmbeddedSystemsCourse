@@ -1,0 +1,127 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K22 ]
+[d frameptr 4065 ]
+"42 C:\Users\vyvoj\MPLABXProjects\lampa.X\main.c
+[e E6989 ErrorCode `uc
+BUGGED_PWM 0
+WRONG_FORMAT 1
+WRONG_EFFICIENCY 2
+WRONG_LED 3
+SOME_WEIRD_ERROR_IDK 4
+ALL_OK 5
+]
+"16 C:\Users\vyvoj/Downloads/02_hodina/simdelay.c
+[v _Delay100Us Delay100Us `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"11 C:\Users\vyvoj\MPLABXProjects\lampa.X\main.c
+[v _init init `(v  1 e 1 0 ]
+"42
+[v _pwm pwm `T(E6989  1 e 1 0 ]
+"55
+[v _IT IT `II(v  1 e 1 0 ]
+"64
+[v _main main `(v  1 e 1 0 ]
+"95 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f46k22.h
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"196
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"7670
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"7894
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"8280
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8724
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"16044
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16127
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"16197
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"16924
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"18346
+[v _LATD1 LATD1 `VEb  1 e 0 @31841 ]
+"18352
+[v _LATD4 LATD4 `VEb  1 e 0 @31844 ]
+"19328
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"38 C:\Users\vyvoj\MPLABXProjects\lampa.X\main.c
+[v _cas cas `VEui  1 e 2 0 ]
+"39
+[v _cas1 cas1 `VEui  1 e 2 0 ]
+"40
+[v _timerConstant timerConstant `Cui  1 e 2 0 ]
+"53
+[v _A A `VEuc  1 e 1 0 ]
+"64
+[v _main main `(v  1 e 1 0 ]
+{
+"93
+} 0
+"42
+[v _pwm pwm `T(E6989  1 e 1 0 ]
+{
+[v pwm@dutyCycle dutyCycle `uc  1 a 1 wreg ]
+[v pwm@dutyCycle dutyCycle `uc  1 a 1 wreg ]
+[v pwm@dutyCycle dutyCycle `uc  1 a 1 31 ]
+"52
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 29 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 25 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 27 ]
+"53
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 22 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 24 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 18 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 20 ]
+"31
+} 0
+"11 C:\Users\vyvoj\MPLABXProjects\lampa.X\main.c
+[v _init init `(v  1 e 1 0 ]
+{
+"25
+} 0
+"55
+[v _IT IT `II(v  1 e 1 0 ]
+{
+"62
+} 0
