@@ -48,7 +48,7 @@ inline ErrorCode pwm(uint8_t dutyCycle) {
                 LATD1 = 0;
             }
     } else cas = 0;
-    return ALL_OK;
+    return 5;
 }
 volatile uint8_t A = 50; //1 to 400 (in 40 ms)
 
@@ -56,7 +56,7 @@ void interrupt IT(void) {
     if(TMR0IF) {
         cas++; // adds 1 every 100 us
         LATD4 = ~LATD4;
-        TMR0 = 65335;
+        TMR0 = 65335; //65450
         TMR0IF = 0;
     }
 }
@@ -65,7 +65,11 @@ void main(void) {
     init();
     for(;;){
         pwm(10);
-        
+        if(pwm(5) == ALL_OK) {
+            
+        } else {
+            tryRepairPwm();
+        }
 
     }
     return;
