@@ -1,0 +1,358 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K22 ]
+[d frameptr 4065 ]
+"26 C:\Users\vyvoj/Desktop/LampoidAPI/lampaAPI.c
+[e E7113 EndCode `uc
+SUCCESS 0
+ERROR 1
+]
+"44
+[e E7116 LED `uc
+LED1 0
+LED2 1
+NONE 2
+]
+"58
+[e E7120 MenuPosition `uc
+MENU0 0
+MENU1 1
+MENU2 2
+MENU3 3
+MENU4 4
+MENU5 5
+MENU6 6
+MENU7 7
+MENU8 8
+MENU9 9
+MENU10 10
+MENU11 11
+MENU12 12
+MENU13 13
+MENU14 14
+MENU15 15
+]
+"6
+[v _init init `(v  1 e 1 0 ]
+"112
+[v _IT IT `II(v  1 e 1 0 ]
+"159
+[v _putch putch `(v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"23 C:\Users\vyvoj\MPLABXProjects\SAMOTEST.X\main.c
+[v _containsStr containsStr `(uc  1 e 1 0 ]
+"42
+[v _main main `(v  1 e 1 0 ]
+"16 C:\Users\vyvoj/Desktop/LampoidAPI/lampaAPI.h
+[v _lastCharIndex lastCharIndex `VEuc  1 e 1 0 ]
+"17
+[v _message message `VE[10]uc  1 e 10 0 ]
+"18
+[v _pwmFreq pwmFreq `VEui  1 e 2 0 ]
+"19
+[v _redDutyCycle redDutyCycle `VEuc  1 e 1 0 ]
+"20
+[v _blueDutyCycle blueDutyCycle `VEuc  1 e 1 0 ]
+"21
+[v _greenDutyCycle greenDutyCycle `VEuc  1 e 1 0 ]
+"22
+[v _pwmEnabled pwmEnabled `VEuc  1 e 1 0 ]
+"23
+[v _intensity intensity `VEuc  1 e 1 0 ]
+"24
+[v _lastADCvalue lastADCvalue `VEui  1 e 2 0 ]
+"95 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f46k22.h
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"196
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"4548
+[v _RCSTA2 RCSTA2 `VEuc  1 e 1 @3953 ]
+[s S165 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4593
+[s S174 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S177 . 1 `uc 1 RX9D2 1 0 :1:0 
+`uc 1 OERR2 1 0 :1:1 
+`uc 1 FERR2 1 0 :1:2 
+`uc 1 ADDEN2 1 0 :1:3 
+`uc 1 CREN2 1 0 :1:4 
+`uc 1 SREN2 1 0 :1:5 
+`uc 1 RX92 1 0 :1:6 
+`uc 1 SPEN2 1 0 :1:7 
+]
+[s S186 . 1 `uc 1 RCD82 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_92 1 0 :1:6 
+]
+[s S190 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC92 1 0 :1:6 
+]
+[u S193 . 1 `S165 1 . 1 0 `S174 1 . 1 0 `S177 1 . 1 0 `S186 1 . 1 0 `S190 1 . 1 0 ]
+[v _RCSTA2bits RCSTA2bits `VES193  1 e 1 @3953 ]
+"4836
+[v _TXSTA2 TXSTA2 `VEuc  1 e 1 @3954 ]
+[s S230 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4873
+[s S239 . 1 `uc 1 TX9D2 1 0 :1:0 
+`uc 1 TRMT2 1 0 :1:1 
+`uc 1 BRGH2 1 0 :1:2 
+`uc 1 SENDB2 1 0 :1:3 
+`uc 1 SYNC2 1 0 :1:4 
+`uc 1 TXEN2 1 0 :1:5 
+`uc 1 TX92 1 0 :1:6 
+`uc 1 CSRC2 1 0 :1:7 
+]
+[s S248 . 1 `uc 1 TXD82 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_92 1 0 :1:6 
+]
+[u S252 . 1 `S230 1 . 1 0 `S239 1 . 1 0 `S248 1 . 1 0 ]
+[v _TXSTA2bits TXSTA2bits `VES252  1 e 1 @3954 ]
+"5088
+[v _TXREG2 TXREG2 `VEuc  1 e 1 @3955 ]
+"5126
+[v _RCREG2 RCREG2 `VEuc  1 e 1 @3956 ]
+"5164
+[v _SPBRG2 SPBRG2 `VEuc  1 e 1 @3957 ]
+"6833
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"7670
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"7894
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"8280
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8724
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S133 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 TMR3GIF 1 0 :1:1 
+`uc 1 TMR5GIF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+`uc 1 BCL2IF 1 0 :1:6 
+`uc 1 SSP2IF 1 0 :1:7 
+]
+"10034
+[s S142 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S147 . 1 `S133 1 . 1 0 `S142 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES147  1 e 1 @4004 ]
+[s S94 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"10188
+[s S103 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S106 . 1 `S94 1 . 1 0 `S103 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES106  1 e 1 @4006 ]
+"10253
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"10273
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"16044
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16127
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"16197
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"16924
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"17458
+[v _ADIF ADIF `VEb  1 e 0 @31990 ]
+"18130
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"18296
+[v _LATA0 LATA0 `VEb  1 e 0 @31816 ]
+"18298
+[v _LATA1 LATA1 `VEb  1 e 0 @31817 ]
+"18318
+[v _LATB3 LATB3 `VEb  1 e 0 @31827 ]
+"18320
+[v _LATB4 LATB4 `VEb  1 e 0 @31828 ]
+"18322
+[v _LATB5 LATB5 `VEb  1 e 0 @31829 ]
+"18816
+[v _RD RD `VEb  1 e 0 @32048 ]
+"19328
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"19626
+[v _WR WR `VEb  1 e 0 @32049 ]
+"19630
+[v _WREN WREN `VEb  1 e 0 @32050 ]
+"42 C:\Users\vyvoj\MPLABXProjects\SAMOTEST.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"45
+[v main@flag flag `i  1 a 2 23 ]
+"44
+[v main@lastchar lastchar `i  1 a 2 21 ]
+"61
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"530
+[v printf@cp cp `*.34Cuc  1 a 2 9 ]
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 6 ]
+"499
+[v printf@c c `c  1 a 1 8 ]
+"508
+[v printf@flag flag `uc  1 a 1 5 ]
+"464
+[v printf@f f `*.32Cuc  1 p 2 1 ]
+"1541
+} 0
+"159 C:\Users\vyvoj/Desktop/LampoidAPI/lampaAPI.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@c c `uc  1 a 1 wreg ]
+[v putch@c c `uc  1 a 1 wreg ]
+[v putch@c c `uc  1 a 1 0 ]
+"162
+} 0
+"6
+[v _init init `(v  1 e 1 0 ]
+{
+"23
+[v init@i i `uc  1 a 1 0 ]
+"24
+} 0
+"23 C:\Users\vyvoj\MPLABXProjects\SAMOTEST.X\main.c
+[v _containsStr containsStr `(uc  1 e 1 0 ]
+{
+"24
+[v containsStr@i i `uc  1 a 1 18 ]
+"25
+[v containsStr@j j `uc  1 a 1 17 ]
+"23
+[v containsStr@message message `*.39uc  1 p 2 6 ]
+[v containsStr@command command `*.32Cuc  1 p 2 8 ]
+"40
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"8
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"35
+} 0
+"112 C:\Users\vyvoj/Desktop/LampoidAPI/lampaAPI.c
+[v _IT IT `II(v  1 e 1 0 ]
+{
+"113
+[v IT@percent percent `uc  1 s 1 percent ]
+"157
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 48 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 52 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 47 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 38 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 21 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 25 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 24 ]
+[v ___ftmul@exp exp `uc  1 a 1 20 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 11 ]
+[v ___ftmul@f2 f2 `f  1 p 3 14 ]
+"157
+} 0
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 37 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 36 ]
+[v ___ftadd@sign sign `uc  1 a 1 35 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 26 ]
+[v ___ftadd@f2 f2 `f  1 p 3 29 ]
+"148
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
