@@ -44,6 +44,10 @@ void main(void) {
     int lastchar = 0;
     int flag = 1;
     while (1) {
+        if (bufferFull) {
+            asre + message
+            bufferClear();
+        }
         if(lastchar != lastCharIndex) {
             lastchar = lastCharIndex;
             printf("%s \n\r", message);
