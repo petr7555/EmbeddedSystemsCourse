@@ -2,7 +2,6 @@
 
 #include "lampaAPI.h"
 
-aaa
 void init(){
     OSCCON |= 0b01110000; // interny oscilator nastaveny na 16MHz 
     TRISB = 0b11111111; // five buttons in + unused + PGC, PGD
